@@ -7,6 +7,7 @@ import {
 } from "@mui/icons-material";
 import React from "react";
 import styled from "styled-components";
+import Comments from "../components/Comments";
 
 const Video = () => {
   return (
@@ -58,6 +59,8 @@ const Video = () => {
           </ChannelInfo>
           <Subscribe>SUBSCRIBE</Subscribe>
         </Channel>
+        <Hr />
+        <Comments />
       </Content>
       <Recommendation>recommendation</Recommendation>
     </Container>
