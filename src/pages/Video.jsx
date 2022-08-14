@@ -5,6 +5,7 @@ import {
   ThumbDownAltOutlined,
   ThumbUpOutlined,
 } from "@mui/icons-material";
+import { Card } from "@mui/material";
 import React from "react";
 import styled from "styled-components";
 import Comments from "../components/Comments";
@@ -62,7 +63,24 @@ const Video = () => {
         <Hr />
         <Comments />
       </Content>
-      <Recommendation>recommendation</Recommendation>
+      <Recommendation>
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+      </Recommendation>
     </Container>
   );
 };
